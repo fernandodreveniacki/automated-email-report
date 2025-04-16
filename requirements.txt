@@ -1,0 +1,6 @@
+pandas
+openpyxl
+fpdf
+schedule
+faker
+python-dotenv

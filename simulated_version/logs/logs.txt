@@ -1,0 +1,12 @@
+[2025-04-15 11:40:12] ✅ Relatório gerado com sucesso: reports/relatorio_2025-04-15.xlsx
+[2025-04-15 11:40:12] 📬 E-mail simulado com anexo: relatorio_2025-04-15.xlsx para destinatario@exemplo.com
+[2025-04-15 11:47:00] Iniciando tarefa agendada
+[2025-04-15 11:47:00] ✅ Relatório gerado com sucesso: reports/relatorio_2025-04-15.xlsx
+[2025-04-15 11:47:00] 📬 E-mail simulado com anexo: relatorio_2025-04-15.xlsx para destinatario@exemplo.com
+[2025-04-15 11:47:00] ✅ Tarefa finalizada com sucesso.
+[2025-04-15 11:49:19] ✅ Relatório Excel gerado: reports/relatorio_2025-04-15.xlsx
+[2025-04-15 11:49:19] 📄 Relatório PDF gerado: reports/relatorio_2025-04-15.pdf
+[2025-04-15 11:49:19] 📬 E-mail simulado com anexo: relatorio_2025-04-15.xlsx para destinatario@exemplo.com
+[2025-04-16 11:23:50] ✅ Relatório Excel gerado: reports/relatorio_2025-04-16.xlsx
+[2025-04-16 11:23:50] 📄 Relatório PDF gerado: reports/relatorio_2025-04-16.pdf
+[2025-04-16 11:23:50] 📬 E-mail simulado com anexo: relatorio_2025-04-16.xlsx para destinatario@exemplo.com
