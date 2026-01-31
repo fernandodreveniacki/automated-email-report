@@ -1,13 +1,13 @@
-# 📊 Projeto de Automação de Relatórios por E-mail com Python
+# Projeto de Automação de Relatórios por E-mail com Python
 
 Este projeto demonstra como automatizar a geração e o envio de relatórios diários utilizando Python. Ele possui **duas versões**:
 
-- 🔄 **Versão Simulada**: executa todo o fluxo, mas **não envia o e-mail de verdade** (apenas simula).
-- 📬 **Versão Real**: envia o relatório **realmente por e-mail**, utilizando o Gmail via SMTP com senha de aplicativo.
+- **Versão Simulada**: executa todo o fluxo, mas **não envia o e-mail de verdade** (apenas simula).
+- **Versão Real**: envia o relatório **realmente por e-mail**, utilizando o Gmail via SMTP com senha de aplicativo.
 
 ---
 
-## 🗂️ Estrutura Geral do Projeto
+## Estrutura Geral do Projeto
 
 ```
 AUTOMATED_REPORT/
@@ -47,7 +47,7 @@ AUTOMATED_REPORT/
 
 ---
 
-## 🔄 Como usar a Versão Simulada
+## Como usar a Versão Simulada
 
 1. Gere os dados:
 ```bash
@@ -60,11 +60,11 @@ python generate_fake_data.py
 python main.py
 ```
 
-> 📌 Sempre execute **de dentro da pasta `simulated_version/`** para que os caminhos relativos funcionem corretamente.
+>  Sempre execute **de dentro da pasta `simulated_version/`** para que os caminhos relativos funcionem corretamente.
 
 ---
 
-## 📬 Como usar a Versão Real com Envio
+## Como usar a Versão Real com Envio
 
 1. Configure seu `.env` com base em `config_template.env`
 2. Gere os dados:
@@ -83,11 +83,11 @@ python main.py
 python scheduler.py
 ```
 
-> 📌 Sempre execute **de dentro da pasta `real_email_version/`** para evitar erros ao acessar arquivos.
+>  Sempre execute **de dentro da pasta `real_email_version/`** para evitar erros ao acessar arquivos.
 
 ---
 
-## 🔐 Segurança
+##  Segurança
 
 - As variáveis sensíveis estão em `.env` e **não devem ser versionadas**
 - O projeto inclui um `.gitignore` que protege esses dados
@@ -95,16 +95,16 @@ python scheduler.py
 
 ---
 
-## 📝 Funcionalidades Comuns
+##  Funcionalidades Comuns
 
-- 📊 Geração de relatórios (.xlsx e .pdf)
-- 📧 Envio (real ou simulado)
-- 🪵 Logs salvos em `logs/logs.txt`
-- 📅 Agendamento diário com `schedule`
+- Geração de relatórios (.xlsx e .pdf)
+- Envio (real ou simulado)
+- Logs salvos em `logs/logs.txt`
+- Agendamento diário com `schedule`
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 Desenvolvido por Fernando — para portfólio e estudos.
 
